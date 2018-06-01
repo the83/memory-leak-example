@@ -1,0 +1,19 @@
+{
+  "name": "memory-leak-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:the83/memory-leak-example.git",
+  "author": "<theronhumiston@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "express": "^4.16.3",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0",
+    "react-loadable": "^5.4.0",
+    "react-loadable-visibility": "^2.4.2"
+  },
+  "scripts": {
+    "server": "node server.js --port 3000"
+  }
+}
